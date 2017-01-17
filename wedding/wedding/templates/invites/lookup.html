@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load bootstrap3 %}
+
+{% block content %}
+<div class="container top-container">
+  <h1>RSVP Lookup</h1>
+  <p>Please provide the ZIP Code on your invitation as well as the last name of one guest on the invitation to look up your RSVP!</p>
+  <form action="" method="post" class="form">
+  {% csrf_token %}
+  {% bootstrap_form form %}
+  {% buttons %}
+    <button type="submit" class="btn btn-primary">
+      {% bootstrap_icon "envelope" %} Look Up
+    </button>
+  {% endbuttons %}
+</form>
+</div>
+{% endblock %}

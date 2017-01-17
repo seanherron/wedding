@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "../../vagrant/wedding/wedding/static/scss/style.css",
+	"sources": [
+		"../../vagrant/wedding/wedding/static/scss/style.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,uBAAuB,GACrC;;AAED,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,CAAC;EACrB,WAAW,EAAE,kBAAkB,GAChC;;AAED,AAAA,KAAK,CAAC;EACJ,gBAAgB,EAAE,6DAA6D;EAC/E,MAAM,EAAE,KAAK,GACd;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACtC,AAAA,KAAK,CAAC;IACJ,MAAM,EAAE,KAAK,GACd"
+}

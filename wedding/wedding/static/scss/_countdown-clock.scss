@@ -1,0 +1,21 @@
+.countdown-clock {
+  font-size: 2em;
+  text-align: center;
+  color: $color-main;
+  font-weight: bold;
+
+  li {
+    padding-left: 0.9em;
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}
+
+.countdown-clock-label {
+  color: #222;
+  display: block;
+  font-family: $font-secondary;
+  font-weight: normal;
+  font-size: 0.75em;
+}

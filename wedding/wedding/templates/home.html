@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% load bootstrap3 %}
+
+{% block content %}
+
+<div id="home" class="hero jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 hero-title">
+        <h1>Meghan & Sean<span class="hero-title-subtitle">are getting married!</span></h1>
+          <div class="hero-date ribbon">
+            <span class="ribbon-content">April 22, 2017</span>
+          </div>
+        <div><a class="btn btn-default" role="button" href='/rsvp'>RSVP Now</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="the-wedding" class="container">
+  <div class="row">
+    <h2>The Wedding</h2>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <ul id="countdown-clock" class="list-inline countdown-clock">
+        <li><span class="days"></span> <span class="countdown-clock-label">Days</span></li>
+        <li><span class="hours"></span> <span class="countdown-clock-label">Hours</span></li>
+        <li><span class="minutes"></span> <span class="countdown-clock-label">Minutes</span></li>
+        <li><span class="seconds"></span> <span class="countdown-clock-label">Seconds</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="well">
+        <h3>Ceremony</h3>
+        <p>We'll be getting married at the Saddle Peak Lodge in Malibu Canyon, California. </p>
+        <ul class="well-detail-list">
+          <li><i class="fa fa-calendar" aria-hidden="true"></i> Saturday - April 22, 2017</li>
+          <li><i class="fa fa-clock-o" aria-hidden="true"></i> Arrive at 5pm.</li>
+          <li><i class="fa fa-map-o" aria-hidden="true"></i> <a href="http://www.saddlepeaklodge.com/" target="_blank">Saddle Peak Lodge</a><br>
+          <li><i class="fa fa-car" aria-hidden="true"></i> Valet Parking Provided</a><br>
+
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="well">
+        <h3>Dinner & Dancing</h3>
+        <p>Following the Ceremony, we'll have a small reception followed by dinner and dancing, all at Saddle Peak.</p>
+
+        <ul class="well-detail-list">
+          <li><i class="fa fa-cutlery" aria-hidden="true"></i> <a href="#" data-toggle="modal" data-target="#menuModal">Dinner Menu</a></li></li>
+          <li><i class="fa fa-music" aria-hidden="true"></i> Playlist</li>
+          <li><i class="fa fa-birthday-cake" aria-hidden="true"></i> Cake Provided<br></li>
+          <li><i class="fa fa-shopping-bag" aria-hidden="true"></i> Semi-Formal Attire</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row rsvp-box">
+    <a class="btn btn-default" role="button" href='/rsvp'>RSVP Now</a>
+    <p>Please RSVP no later than March 1st, 2017.</p>
+  </div>
+</div>
+
+<div id="map"></div>
+<div id="our-story">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-4 our-story-container">
+        <h2>Our Story</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="registry" class="container">
+  <div class="row">
+    <h2>Registry</h2>
+  </div>
+  <div class="row">
+    <p class="section-subtitle">The most important gift to us is to have you share our day! However, if you do wish to give us a gift, you can check out the registries below.</p>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="well">
+        <h3>Honeyfund</h3>
+        <p>We are very grateful to have many of the things we need for our home together. In leiu of a traditional registry, we are looking to go on a once-in-a-lifetime trip - 6 weeks through Myanmar, Indonesia, Cambodia, and Vietnam. Help us make our trip a reality!</p>
+        <a class="btn btn-default" role="button" href="/registry">Honeyfund</a>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="well">
+        <h3>Traditional Registry</h3>
+        <p>We've registered at Crate and Barrel for some of the things we'd love to have in our home!</p>
+        <br><br>
+
+        <a class="btn btn-default" role="button" href="/registry">C+B</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
