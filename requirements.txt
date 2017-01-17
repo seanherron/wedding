@@ -2,6 +2,7 @@ Django==1.10.5
 django-appconf==1.0.2
 django-bootstrap3==8.1.0
 django-compressor==2.1
+django-crispy-forms==1.6.1
 django-extra-views==0.8.0
 django-nose==1.4.4
 django-sass-processor==0.5.3
